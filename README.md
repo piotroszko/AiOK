@@ -1,2 +1,2 @@
-# AiOK
- Architektura i Organizacja Komputerów
+# AiOK:  Architektura i Organizacja Komputerów
+
