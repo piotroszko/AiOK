@@ -1,1 +1,37 @@
+Minimalizacja funkcji boolowskich (pierwsze zajecia)
+          (minimalizacja)
+id x  y  z  func   Liczba:
+0  0  0  0   0       1
+1  0  0  1   1       0
+2  0  1  0   1       1
+3  0  1  1   1       0
+4  1  0  0   0       1
+5  1  0  1   0       1
+6  1  1  0   0       0
+7  1  1  1   0       1
 
+Zamiana dziesietnej na binarna (173) (10101101) (czytamy od dołu do góry)
+173 | 1  Prawa
+86  | 0
+43  | 1
+21  | 1
+10  | 0
+5   | 1
+2   | 0
+1   | 1  Lewa
+0
+
+Wejsciowka (na cw2):
+1. Dostaje liczbe 10-tna ktora zamieniamy na binarna ( ^^^^ )
+2. Liczbe zminimalizowac (u góry)
+             _ _      _   _    _
+f1(x,y,z) = (x^y^z) v(x^y^z)v (x^ y ^z)
+             0 0 1    0 1  0  0  1  1     ///// to jest funkcja z tego na gorze (func) 
+
+1 | * | ^
+__________
+0 | + | v
+3. Podac postac zminimalizowanej funkcji
+- narysowac schemat funkcji za pomoca bramek \n
+^ to |)
+v to ))
