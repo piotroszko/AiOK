@@ -28,9 +28,9 @@ Wejsciowka (na cw2):
 f1(x,y,z) = (x^y^z) v(x^y^z)v (x^ y ^z)
              0 0 1    0 1  0  0  1  1     ///// to jest funkcja z tego na gorze (func) 
 
-1 | * | ^
-__________
-0 | + | v
+1 | * | ^ | |)
+______________
+0 | + | v | ))
 3. Podac postac zminimalizowanej funkcji
 - narysowac schemat funkcji za pomoca bramek
 ^ to |)
